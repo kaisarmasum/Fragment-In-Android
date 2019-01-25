@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="316dp"
+            android:layout_height="152dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/diutrans"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:text="Daffodil International University"
+            android:textColor="#0e0e0e"
+            android:textSize="16dp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="321dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="192dp"
+            android:text="  Daffodil International University (DIU; Bengali: ড্যাফোডিল আন্তর্জাতিক বিশ্ববিদ্যালয়]) is a co-educational private university located in Dhanmondi, Dhaka, Bangladesh. It was established on 24 January 2002 under the Private University Act, 1992. DIU is the first university in Bangladesh to have signed the UN's Commitment to Sustainable Practices of Higher Education Institutions. The university was established in 2002 with the approval of the University Grants Commission (Bangladesh) and the Government of Bangladesh's Ministry of Education.
+
+   The university has multiple campuses within Dhaka. The main campus is located in Dhanmondi and the permanent campus is in Ashulia. The permanent campus covers 150 acres of land with a playground, shopping mall, basket ball court, golf course, hostel, and other facilities. "
+            android:textColor="#050505"
+            android:textSize="12dp" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>
